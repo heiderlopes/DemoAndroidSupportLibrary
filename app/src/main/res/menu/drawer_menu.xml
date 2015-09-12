@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/action_android"
+            android:checked="false"
+            android:icon="@drawable/android"
+            android:title="Android" />
+
+        <item
+            android:id="@+id/action_ios"
+            android:checked="false"
+            android:icon="@drawable/ios"
+            android:title="Ios" />
+
+        <item
+            android:id="@+id/action_collapse"
+            android:checked="false"
+            android:icon="@drawable/android"
+            android:title="Lista Collapse" />
+
+        <item
+            android:id="@+id/action_cadastro"
+            android:checked="false"
+            android:icon="@drawable/android"
+            android:title="Cadastro" />
+    </group>
+</menu>
